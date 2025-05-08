@@ -5,3 +5,7 @@ Currently the parameters (number of slits, their locations and lengths, $\eta$ f
 I'll make it more user-friendly when I get a chance.
 
 There's also a Jupyter Notebook which does more-or-less the same thing.
+
+--
+
+Note that the $\sigma$ is a bit larger than it should be for the convergence theorems in the paper [https://arxiv.org/abs/2304.04417] to hold (or at least for the proofs to be valid), but numerically it's not very reliable if we take a really tiny $\sigma$.
