@@ -204,7 +204,7 @@ def get_random_configuration():
     for i in range(slits):
         l = np.random.choice([0.5,1,2,5,10],p=[0.1,0.5,0.2,0.15,0.05])
         lengths[i] = l
-    sigma = (T/n)**8
+    sigma = (T/n)**3
     return locations,lengths,T,n,eta,sigma
 
 if __name__=='__main__':
@@ -214,7 +214,7 @@ if __name__=='__main__':
     # T = 1.2
     # n = 100
     # eta = 3.00
-    # sigma = (T/n)**8
+    # sigma = (T/n)**3
     locations, lengths, T, n, eta, sigma = get_random_configuration()
     print(locations, lengths, T, n, eta, sigma)
     
