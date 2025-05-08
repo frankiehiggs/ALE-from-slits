@@ -4,7 +4,7 @@ Code to simulate the aggregate Loewner evolution (ALE) process started from a no
 Currently the parameters (number of slits, their locations and lengths, $\eta$ for the ALE, etc.) have to be typed into `ale-script.py`, or you can allow it to choose the parameters randomly (the distribution can be changed by modifying `get_random_configuration()` ). This is set around line `211`.
 I'll make it more user-friendly when I get a chance.
 
-There's also a Jupyter Notebook which does more-or-less the same thing.
+There's also a Jupyter Notebook which does more-or-less the same thing, but with extensive explanations of the method (based on Pearce, 1991 [https://epubs.siam.org/doi/10.1137/0912013]).
 
 --
 
